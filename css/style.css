@@ -319,8 +319,8 @@ h3 {
     background-size: cover;
     -o-background-size: cover;
     background: url(../img/13.jpg) no-repeat center center fixed;
+    background-size: 100% auto !important;
 }
-
 
 
 
@@ -416,6 +416,7 @@ h4{
 .parcours {
     padding: 100px 0;
     background: url(../img/13.jpg) no-repeat center center fixed;
+    background-size: 100% auto !important;
 }
 
 
@@ -597,12 +598,20 @@ h4{
     text-transform: uppercase;
     color: white;
     margin-bottom:30px;
-    margin-top: 10px;
+    margin-top: -50px;
 }
 
 #apropos p{
     text-align: left;
     margin-top: 20px;
+}
+
+
+#me{
+
+    max-height: 200px;
+    margin-left: 75%;
+    
 }
 
 
